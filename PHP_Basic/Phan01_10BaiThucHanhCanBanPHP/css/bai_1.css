@@ -1,0 +1,73 @@
+/* CSS để trang web đẹp và giống hình mẫu */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background-color: #D1EEDC;
+    width: 400px;
+    border: 1px solid #aaa;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+}
+
+.form-header {
+    background-color: #009688;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px;
+    text-transform: uppercase;
+}
+
+.form-body {
+    padding: 20px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: 200px;
+    border: 1px solid #ccc;
+}
+
+.result-label {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    min-height: 25px;
+    margin-bottom: 10px;
+}
+
+.btn-submit {
+    display: block;
+    margin: 0 auto;
+    padding: 5px 20px;
+    background-color: #e0e0e0;
+    border: 1px solid #999;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-submit:hover {
+    background-color: #ccc;
+}
